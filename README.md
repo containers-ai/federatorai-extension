@@ -20,9 +20,9 @@
 
 - click **Load unpacked** button and select **chrome-extension** folder from extracted zip file
 
-- login to [NKS](https://cloud.netapp.com/kubernetes-service), then you can see our recommendations when you deploy a new cluster or manage your clusters
+- login to **NKS**, then you can see our recommendations when you deploy a new cluster or manage your clusters
 
-  > **Note**: If the NKS page is opened before extension installed, please reload the NKS page to make it  effect.
+  > **Note**: If the NKS page is opened before extension installed, please reload the NKS page to make extension effect.
 
   
 
@@ -30,7 +30,7 @@
 
 1. **Enabling Federator.ai Extension**
 
-   - After Federator.ai Extension is installed, the extension logo ![logo](/images/favicon.png) will show on the top-right corner of chrome navigation bar. Click the logo to enable the extension.
+   - After Federator.ai Extension is installed, the extension logo ![logo](/images/favicon.png) will show on the top-right corner of Chrome navigation bar. Click the logo to enable the extension.
 
      
 
@@ -91,7 +91,7 @@
 
      
 
- 4. **Deploying the example application**
+ 4. **Configuring Federator.ai to manage the application**
 
     - create the _AlamedaScaler_ CR to monitor **nginx** by command
 
@@ -113,7 +113,7 @@
 
     - check an application's status by running 
 
-      ```$ kubectl get alamedascaler -o yaml --all-namespaces```
+      ```$ kubectl get alamedarecommendation --all-namespaces```
 
 
 
