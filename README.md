@@ -108,7 +108,7 @@
       spec:
         selector:
           matchLabels:
-            app: my-nginx
+            app: nginx
       ```
 
     - check an application's status by running 
