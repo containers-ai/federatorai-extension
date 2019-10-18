@@ -4,12 +4,6 @@
 
 
 
-## Prerequisites
-
-- [federatorai-operator](https://nks.netapp.io/solutions/gallery/trusted-charts) installed from **NKS Solutions**
-
-  
-
 ## Install Federator.ai Extension
 
 - download the latest release of [**Federator.ai Extension**](https://github.com/containers-ai/federatorai-extension/tree/master/release) to the desktop and extract it 
